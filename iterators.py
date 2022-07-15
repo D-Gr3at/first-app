@@ -7,6 +7,9 @@
 # iterator from. All these objects have a iter() method which is used to get an iterator:
 
 class MyNumbers:
+    def __init__(self, na):
+        self.name = na;
+
     def __iter__(self):
         self.a = 1
         return self
