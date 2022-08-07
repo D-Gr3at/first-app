@@ -11,6 +11,5 @@ if __name__ == '__main__':
 
     print(response.text)
 
-
     # https - HyperText Transfer Protocol Secure
     # http - HyperText Transfer Protocol
