@@ -24,7 +24,8 @@ if __name__ == '__main__':
 
     age = 36
     name = "John"
-    txt = "His name is {1}. {1} is {2} years old."
+    txt = "His name is {1}. {1} is {3} years old."
+
     try:
         print(txt.format(age, name))
     except IndexError:
